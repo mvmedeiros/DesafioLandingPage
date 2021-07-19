@@ -15,8 +15,8 @@ form.addEventListener('submit', (e) => {
     localStorage.setItem('lead', convertData)
 
     let card = document.getElementById('card')
-    let loading = `<p>Carregando...</p>`
-    let registered = `<p>Obrigado, ${nameInput}!</p>`
+    let loading = `<p class="info">Carregando...</p>`
+    let registered = `<p class="info">Obrigado, ${nameInput}!</p>`
     card.innerHTML = loading
     setTimeout(()=>{
         card.innerHTML = registered

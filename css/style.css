@@ -58,6 +58,7 @@ footer{
     border-radius:25px;
     padding: 25px;
     max-width: 500px;
+
 }
 
 form{
@@ -90,26 +91,27 @@ input{
 }
 
 .offer-card{
-    height: fit-content;
-    width: fit-content;
+    height: 400px;
+    width: 180px;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius:10px;
+    align-items: center;
+    padding: 5px;
 }
 
 .wine-pic{
-    height: 250px; 
-    width: auto; 
-    border-radius: 30px;
+    height: 300px; 
+    width: 80px; 
 }
 
 .offer-title{
-    color: white;
     text-align: center;
     margin-top: 5px;
 }
 
 .offer-price{
-    color: white;
     text-align: center;
     font-size:25px;
     margin-top: 5px;
