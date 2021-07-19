@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+.promo{
+    height: 250px;
+}
+
+.winery-dogs{
+    font-size: 50px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: honeydew;
+    margin-right: 30px;
+}
+
+.section-top{
+    background-image: url(../assets/vinhobackground.jpg);
+    border-radius: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.info{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+}
+
+.card-container{
+    background: gray;
+    border-radius:25px;
+    padding: 25px;
+    max-width: 500px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.section-offer-external{
+    background-image: url(../assets/wood.jpg);
+    border-radius: 50px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-offer-inner{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.offer-card{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.wine-pic{
+    height: 250px; 
+    width: auto; 
+    border-radius: 30px;
+}
+
+.offer-title{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.offer-price{
+    color: white;
+    text-align: center;
+    font-size:25px;
+    margin-top: 5px;
+}
+
+.offer-header{
+    color: white;
+    align-self: center;
+    font-size: 50px;
+}
